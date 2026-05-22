@@ -112,3 +112,42 @@ body {
   font-family: "Inter", sans-serif;
   padding: 16px 36px;
 }
+
+/* part 2 feature section*/
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.features-wrapper { 
+  display: flex; 
+  gap: 20px; 
+  padding: 20px; 
+}
+
+.feature-card { 
+  flex: 1; 
+  padding: 30px; 
+  border-radius: 15px; 
+}
+
+
+#card-1 { background-color: #D7E5F6; }
+#card-2 { background-color: #D8E0FC; }
+#card-3 { background-color: #E8DCF6; }
+
+
+.icon-box {
+  background-color: white; 
+  width: 60px; height: 60px; 
+  display: flex; justify-content: center; align-items: center; 
+  border-radius: 12px; margin-bottom: 15px; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+
+.icon-box svg {
+  fill: #5E44FF; 
+}
+
+
+h3 { margin-top: 0; }
