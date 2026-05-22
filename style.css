@@ -48,7 +48,7 @@ body {
   font-weight: 500;
 }
 
-.navbar__link--active {
+.navbar__link:hover {
   color: #5e44ff;
   text-decoration: underline;
 }
