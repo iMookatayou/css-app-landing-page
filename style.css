@@ -148,3 +148,161 @@ body {
 .icon-box svg {
   fill: #5E44FF; 
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #F4F5FA;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #1E202B;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 1199px;
+    height: 666px;
+    border-radius: 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card h1 {
+    width: 261px;
+    height: 48px;
+    font-size: 44px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5F5F76;
+}
+
+.form-group input {
+    width: 589px;
+    height: 48px;
+    border-radius: 12px;
+    padding: 12px 12px 12px 16px;
+    margin-top: 4px;
+    
+    border: 1px solid #E0E0ED;
+    font-size: 16px;
+    color: #1E202B;
+    background-color: #FFFFFF;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.form-group textarea {
+    width: 589px;
+    height: 102px;
+    border-radius: 12px;
+    padding: 12px 2px 2px 16px;
+    margin-top: 10px;
+    
+    border: 1px solid #E0E0ED;
+    font-size: 16px;
+    color: #1E202B;
+    background-color: #FFFFFF;
+    outline: none;
+    transition: border-color 0.2s ease;
+    resize: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #1E202B;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #9393AC;
+}
+
+.btn-submit {
+    width: 589px;
+    height: 56px;
+    border-radius: 16px;
+    padding: 16px 36px 16px 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px; 
+
+    background-color: #1A1A2C;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 16px;
+}
+
+.btn-submit:hover {
+    background-color: #2D303F;
+}
+
+.footer {
+    width: 1199px;
+    height: 24px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #5F5F76;
+    font-weight: 500;
+}
+
+.footer-right {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-right a {
+    color: #1A1A2C;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-right a:hover {
+    color: #6E7191;
+}
+
